@@ -1,0 +1,48 @@
+.slider-title {
+    text-align: center;
+    margin-top: 123px;
+    margin-bottom: 59px;
+    h1 {
+        font-weight: 400;
+        font-size: 42px;
+        margin-bottom: 9px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
+
+.slider-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    .slider-card img {
+        padding: 28px;
+    }
+    h2 {
+        font-weight: 400;
+        font-size: 22px;
+        margin-bottom: 9px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 17px;
+        color: #4B4B4B;
+        margin-bottom: 25px;
+    }
+    h3 {
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    .slider-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width:576px) {}
